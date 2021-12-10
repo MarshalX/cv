@@ -1,0 +1,27 @@
+name: Generate PDF from MD and upload artifact
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      - name: Set up Node JS
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - name: Install dependencies
+        run: npm i -g md-to-pdf
+      - name: Generate
+        run: md-to-pdf CV_Ilya_Siamionau.md
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: "CV_Ilya_Siamionau"
+          path: CV_Ilya_Siamionau.pdf
