@@ -45,7 +45,7 @@ css: |-
 
 <ul>
   <li>Developed platform independent <a href="https://www.bluejeans.com/">BlueJeans</a> SDK in pure WebRTC with support of single and multi video streams, list of participants with handling of changed attributes, chat and meeting moderation tools.</li>
-  <li>Designed and implemented integration with <a href="https://www.verizon.com/learning">Verizon Innovative Learning</a>. Worked with NCES ids of USA schools. Leaded this feature.</li>
+  <li>Leaded, designed and implemented integration with <a href="https://www.verizon.com/learning">Verizon Innovative Learning</a>. Worked with NCES ids of USA schools.</li>
   <li>Created custom subscriptions model for providing access to virtual reality apps.</li>
   <li>Actively participated in development the billing system by played time with support of many user`s devices.</li>
   <li>Conducted research about transferring data through sound (e.g. musical notes) to pare new VR headsets to accounts.</li>
