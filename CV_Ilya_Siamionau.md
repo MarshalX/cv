@@ -31,7 +31,7 @@ css: |-
 
 <h2>SUMMARY</h2>
 
-<p style="text-indent: 25px;">Software Engineer with 2+ years of strong experience in Backend Development on Python and JavaScript, practical experience in real-time communication (WebRTC) and Front-end Development on React + Redux, first-hand expertise in making C++ binding for Python.</p>
+<p style="text-indent: 25px;">Software Engineer with 2+ years of strong experience in Backend Development in Python and JavaScript, practical experience in real-time communication (WebRTC) and Front-end Development in React + Redux, first-hand expertise in making C++ binding for Python.</p>
 
 <h2>EXPERIENCE</h2>
 
@@ -44,8 +44,8 @@ css: |-
 </div>
 
 <ul>
-  <li>Developed platform independent <a href="https://www.bluejeans.com/">BlueJeans</a> SDK on pure WebRTC with support of single and multi video streams, list of participants with handling of changed attributes, chat and meeting moderation tools.</li>
-  <li>Designed and implemented integration with <a href="https://www.verizon.com/learning">Verizon Innovative Learning</a>. Worked with NCES ids of USA schools.</li>
+  <li>Developed platform independent <a href="https://www.bluejeans.com/">BlueJeans</a> SDK in pure WebRTC with support of single and multi video streams, list of participants with handling of changed attributes, chat and meeting moderation tools.</li>
+  <li>Designed and implemented integration with <a href="https://www.verizon.com/learning">Verizon Innovative Learning</a>. Worked with NCES ids of USA schools. Leaded this feature.</li>
   <li>Created custom subscriptions model for providing access to virtual reality apps.</li>
   <li>Actively participated in development the billing system by played time with support of many user`s devices.</li>
   <li>Conducted research about transferring data through sound (e.g. musical notes) to pare new VR headsets to accounts.</li>
@@ -61,10 +61,10 @@ css: |-
 </div>
 
 <ul>
-  <li>Developed backend part of new project on full Firebase stack (Firebase Cloud Function, Firestore, Firebase Storage).</li>
-  <li>Designed database architecture for making fast aggregate calculations (because database doesn't support ones).</li>
+  <li>Developed backend part of new project in full Firebase stack (Firebase Cloud Function, Firestore, Firebase Storage). The project is aggregator of statistics of played games in Sudoku with giving achievements, making score histograms of all players, leaderboards.</li>
+  <li>Designed database architecture for making fast aggregate calculations.</li>
   <li>Used in development InversifyJS as implementation of IoC paradigm. Also used tools for automatic generation Swagger specification from code of data models, controllers and routes with comment and examples of values.</li>
-  <li>Developed tools for client team, for example, to upload static resources from Git repository to Firebase Storage with support of Git LFS via self-written implementation. The uploading status displayed in special Slack channel.</li>
+  <li>Developed client-team oriented tools: Bitbucket to Firebase Storage exporter, small bots in Slack.</li>
   <li>Conducted research about count of solution of Sudoku with modified game rules. Also designed game score calculation.</li>
 </ul>
 
