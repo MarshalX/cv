@@ -31,97 +31,106 @@ css: |-
 
 <h2>SUMMARY</h2>
 
-<p>Duis vitae porttitor ipsum, vitae convallis felis. Phasellus lobortis lacinia tincidunt. Vestibulum eu venenatis quam, ut dictum elit. Proin egestas pellentesque scelerisque. Sed scelerisque lacus nec leo vestibulum elementum. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis sed nisi sit amet massa gravida condimentum.</p>
+<p style="text-indent: 25px;">Software Engineer with 2+ years of strong experience in Backend Development on Python and JavaScript, practical experience in real-time communication (WebRTC) and Front-end Development on React + Redux, first-hand expertise in making C++ binding for Python.</p>
 
 <h2>EXPERIENCE</h2>
 
 <div class="row d-flex justify-content-between align-items-center">
-  <div class="col text-start fs-6">
-    <a href="https://abelanavr.com/">Abelana VR</a>
+  <div class="col text-start">
+    <a href="https://abelanavr.com/" class="fs-6">Abelana VR</a>
+    <span>as a backend developer</span>
   </div>
   <div class="col text-end">(Mar 2020 – Present)</div>
 </div>
 
 <ul>
-  <li>Curabitur viverra dignissim volutpat. In aliquam luctus maximus. Proin non nisi vitae quam bibendum hendrerit. Vivamus tincidunt velit sit amet lacinia commodo. Aenean facilisis faucibus dictum.</li>
-  <li>Fusce id urna in lacus facilisis convallis id vel elit. Vestibulum suscipit orci nec rutrum interdum. In sed eros mauris. Donec sed ex nisi.</li>
-  <li>Nullam nec nunc sit amet nulla faucibus molestie. In fringilla pharetra metus, eu dapibus lectus fermentum vitae.</li>
-  <li>Aenean sagittis lectus vel felis tincidunt interdum. Fusce sed accumsan eros. Donec et lectus pulvinar, dapibus diam vitae, elementum est. Duis tempus tincidunt nunc. </li>
+  <li>Developed platform independent <a href="https://www.bluejeans.com/">BlueJeans</a> SDK on pure WebRTC with support of single and multi video streams, list of participants with handling of changed attributes, chat and meeting moderation tools.</li>
+  <li>Designed and implemented integration with <a href="https://www.verizon.com/learning">Verizon Innovative Learning</a>. Worked with NCES ids of USA schools.</li>
+  <li>Created custom subscriptions model for providing access to virtual reality apps.</li>
+  <li>Actively participated in development the billing system by played time with support of many user`s devices.</li>
+  <li>Conducted research about transferring data through sound (e.g. musical notes) to pare new VR headsets to accounts.</li>
 </ul>
 
 
 <div class="row d-flex justify-content-between align-items-center">
-  <div class="col text-start fs-6">
-    <a href="https://www.iridescent.studio/">Iridescent Studio</a>
+  <div class="col text-start">
+    <a href="https://www.iridescent.studio/" class="fs-6">Iridescent Studio</a>
+    <span>as a backend developer</span>
   </div>
   <div class="col text-end">(Mar 2020 – Present)</div>
 </div>
 
 <ul>
-  <li>Curabitur viverra dignissim volutpat. In aliquam luctus maximus. Proin non nisi vitae quam bibendum hendrerit. Vivamus tincidunt velit sit amet lacinia commodo. Aenean facilisis faucibus dictum.</li>
-  <li>Fusce id urna in lacus facilisis convallis id vel elit. Vestibulum suscipit orci nec rutrum interdum. In sed eros mauris. Donec sed ex nisi.</li>
-  <li>Nullam nec nunc sit amet nulla faucibus molestie. In fringilla pharetra metus, eu dapibus lectus fermentum vitae.</li>
-  <li>Aenean sagittis lectus vel felis tincidunt interdum. Fusce sed accumsan eros. Donec et lectus pulvinar, dapibus diam vitae, elementum est. Duis tempus tincidunt nunc. </li>
+  <li>Developed backend part of new project on full Firebase stack (Firebase Cloud Function, Firestore, Firebase Storage).</li>
+  <li>Designed database architecture for making fast aggregate calculations (because database doesn't support ones).</li>
+  <li>Used in development InversifyJS as implementation of IoC paradigm. Also used tools for automatic generation Swagger specification from code of data models, controllers and routes with comment and examples of values.</li>
+  <li>Developed tools for client team, for example, to upload static resources from Git repository to Firebase Storage with support of Git LFS via self-written implementation. The uploading status displayed in special Slack channel.</li>
+  <li>Conducted research about count of solution of Sudoku with modified game rules. Also designed game score calculation.</li>
 </ul>
 
 
 <div class="row d-flex justify-content-between align-items-center">
-  <div class="col text-start fs-6">
-    <a href="https://innowise-group.com/">Innowise Group</a>
+  <div class="col text-start">
+    <a href="https://innowise-group.com/" class="fs-6">Innowise Group</a>
+    <span>as a full-stack developer</span>
   </div>
   <div class="col text-end">(Aug 2019 – Mar 2020)</div>
 </div>
 
 <ul>
-  <li>Curabitur viverra dignissim volutpat. In aliquam luctus maximus. Proin non nisi vitae quam bibendum hendrerit. Vivamus tincidunt velit sit amet lacinia commodo. Aenean facilisis faucibus dictum.</li>
-  <li>Fusce id urna in lacus facilisis convallis id vel elit. Vestibulum suscipit orci nec rutrum interdum. In sed eros mauris. Donec sed ex nisi.</li>
-  <li>Nullam nec nunc sit amet nulla faucibus molestie. In fringilla pharetra metus, eu dapibus lectus fermentum vitae.</li>
-  <li>Aenean sagittis lectus vel felis tincidunt interdum. Fusce sed accumsan eros. Donec et lectus pulvinar, dapibus diam vitae, elementum est. Duis tempus tincidunt nunc. </li>
+  <li>Implemented Jaccard index and Front-end for the system that according to the input param set (hard skills, for example) and can effectively combine people into optimal team and propose the best one for a project.</li>
 </ul>
 
 <h2>PERSONAL PROJECTS</h2>
 
-<div class="row d-flex justify-content-between align-items-center">
-  <div class="col text-start fs-6">
-    <a href="https://github.com/MarshalX/tgcalls">Telegram Calls</a>
-  </div>
+<div class="d-flex align-items-center g-3">
+  <a class="fs-6 me-1" href="https://github.com/MarshalX/tgcalls">Telegram Calls</a>
+  <span>[C++, Python]</span>
 </div>
 
+<p class="mb-1" style="text-indent: 25px;">An open source Python library that provides ability to make common and group audio & video calls, live streams and broadcast recordings in Telegram.</p>
 <ul>
-  <li>Curabitur viverra dignissim volutpat. In aliquam luctus maximus. Proin non nisi vitae quam bibendum hendrerit. Vivamus tincidunt velit sit amet lacinia commodo. Aenean facilisis faucibus dictum.</li>
-  <li>Fusce id urna in lacus facilisis convallis id vel elit. Vestibulum suscipit orci nec rutrum interdum. In sed eros mauris. Donec sed ex nisi.</li>
+  <li>Developed a binding using pybind11 that allows to use C++ library like Python native one.</li>
+  <li>Restored CMake files for compile C++ library with big dependencies like WebRTC, FFmpeg, OpenSSL and Opus.</li>
+  <li>Made Telegram's C++ library independent of graphical interfaces (made headless version of the official library).</li>
+  <li>Implemented and documented high level Python interface by researched code of official clients in an env without doc.</li>
+  <li>Built Python binary wheels for many platforms (maOS M1 & x86, Unix x86 & ARM, Win) using manylinux, CI and QEMU.</li>
+  <li>Wrote realtime video and audio frames converter to raw formats using OpenCV and FFmpeg.</li>
+  <li>Worked on synchronization of audio and video streams.</li>
 </ul>
 
 
-<div class="row d-flex justify-content-between align-items-center">
-  <div class="col text-start fs-6">
-    <a href="https://github.com/MarshalX/yandex-music-api">Yandex.Music API</a>
-  </div>
+<div class="d-flex align-items-center g-3">
+  <a class="fs-6 me-1" href="https://github.com/MarshalX/yandex-music-api">Yandex.Music API</a>
+  <span>[Python]</span>
 </div>
 
-<ul>
-  <li>Curabitur viverra dignissim volutpat. In aliquam luctus maximus. Proin non nisi vitae quam bibendum hendrerit. Vivamus tincidunt velit sit amet lacinia commodo. Aenean facilisis faucibus dictum.</li>
-  <li>Fusce id urna in lacus facilisis convallis id vel elit. Vestibulum suscipit orci nec rutrum interdum. In sed eros mauris. Donec sed ex nisi.</li>
-</ul>
+<p class="mb-1" style="text-indent: 25px;">An open source Python library with high level interfaces for the private Yandex.Music API with documentation, examples and tests.</p>
 
 <h2>SKILLS</h2>
 
 <div class="row">
   <div class="col-2 fw-bold">Languages</div>
-  <div class="col-auto">Item, Item, Item</div>
+  <div class="col-auto">
+    <span class="fw-bold">Proficient: </span>
+    <span>Python, JavaScript (TypeScript)</span>
+    <br>
+    <span class="fw-bold">Familiar: </span>
+    <span>C++</span>
+  </div>
 </div>
 
 <div class="row">
   <div class="col-2 fw-bold">Frameworks</div>
-  <div class="col-auto">Item, Item, Item</div>
+  <div class="col-auto">Django, Flask, FastAPI, Express</div>
 </div>
 
 <div class="row">
   <div class="col-2 fw-bold">Databases</div>
-  <div class="col-auto">Item, Item, Item</div>
+  <div class="col-auto">PostgreSQL, MySQL, MongoDB, Firestore</div>
 </div>
 
 <div class="row">
   <div class="col-2 fw-bold">Other</div>
-  <div class="col-auto">Item, Item, Item</div>
+  <div class="col-auto">WebRTC, Docker, CI/CD</div>
 </div>
