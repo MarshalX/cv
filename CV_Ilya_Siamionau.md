@@ -95,7 +95,7 @@ css: |-
   <span>[C++, Python]</span>
 </div>
 
-<p class="mb-1" style="text-indent: 25px;">An open source Python library that provides ability to make private and group audio & video calls, live streams and broadcast recordings in Telegram.</p>
+<p class="mb-1" style="text-indent: 25px;">A Python library that provides ability to make private and group audio & video calls, live streams and broadcast recordings in Telegram.</p>
 <ul class="mb-1">
   <li>Developed a binding using pybind11 that allows to use C++ library like Python native one.</li>
   <li>Restored CMake files for compile C++ library with big dependencies like WebRTC, FFmpeg, OpenSSL and Opus.</li>
