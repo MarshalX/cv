@@ -31,7 +31,7 @@ css: |-
 
 <h2 class="my-3">SUMMARY</h2>
 
-<p style="text-indent: 25px;">Software Engineer with 2.5+ years of strong experience in Backend Development in Python and JavaScript, practical experience in real-time communication (WebRTC) and Front-end Development in React + Redux, first-hand expertise in making C++ bindings for Python. Vocational education taken after high education level.</p>
+<p style="text-indent: 25px;">Software engineer with 2.5+ years of strong experience in backend development in Python and JavaScript, practical experience in real-time communication (WebRTC) and frontend development in React + Redux, first-hand expertise in making C++ bindings for Python. Vocational education taken after high education level.</p>
 
 <h2 class="my-3">EXPERIENCE</h2>
 
@@ -44,11 +44,11 @@ css: |-
 </div>
 
 <ul class="mb-1">
-  <li>Developed platform independent <a href="https://www.bluejeans.com/">BlueJeans</a> SDK in pure WebRTC with support of single and multi video streams, list of participants with handling of changed attributes, chat and meeting moderation tools. Implemented JSON-RPC.</li>
-  <li>Leaded, designed and implemented integration with <a href="https://www.verizon.com/learning">Verizon Innovative Learning</a>. Worked with NCES ids of USA schools.</li>
-  <li>Created custom subscriptions model for providing access to virtual reality apps.</li>
-  <li>Actively participated in development the billing system by played time with support of many user`s devices.</li>
-  <li>Conducted research about transferring data through sound (e.g. musical notes) to pare new VR headsets to accounts.</li>
+  <li>Developed the platform-independent <a href="https://www.bluejeans.com/">BlueJeans</a> SDK in pure WebRTC with the support of single and multiple video streams, list of participants with handling of attribute changes, chat and meeting moderation tools. Implemented JSON RPC.</li>
+  <li>Leaded, designed and implemented integration with <a href="https://www.verizon.com/learning">Verizon Innovative Learning</a>. Worked with NCES IDs of USA schools.</li>
+  <li>Created a custom subscription model for providing access to virtual reality apps.</li>
+  <li>Participated actively in the development of the billing system.</li>
+  <li>Conducted research about transferring data through sound (e.g. musical notes) to pair new VR headsets to accounts.</li>
 </ul>
 
 
@@ -61,11 +61,11 @@ css: |-
 </div>
 
 <ul class="mb-1">
-  <li>Developed backend part of new project in full Firebase stack (Firebase Cloud Function, Firestore, Firebase Storage). The project is aggregator of statistics of played games in Sudoku with giving achievements, making score histograms of all players, leaderboards.</li>
-  <li>Designed database architecture for making fast aggregate calculations.</li>
-  <li>Used in development InversifyJS as implementation of IoC paradigm. Also used tools for automatic generation Swagger specification from code of data models, controllers and routes with comment and examples of values.</li>
+  <li>Developed the backend part of a new project in a full-Firebase stack (Firebase Cloud Function, Firestore, Firebase Storage). The project is an aggregator of the statistics of played games in Sudoku which also gives achievements and makes score histograms of all players and leaderboards.</li>
+  <li>Designed the database architecture for making fast aggregate calculations.</li>
+  <li>Used InversifyJS as an implementation of IoC paradigm. Also used tools for automatic generation Swagger specification from code of data models, controllers and routes with comment and examples of values.</li>
   <li>Developed client-team oriented tools: Bitbucket to Firebase Storage exporter, small bots in Slack.</li>
-  <li>Conducted research about count of solution of Sudoku with modified game rules. Also designed game score calculation.</li>
+  <li>Conducted research about count of solution of Sudoku with modified game rules. Also designed the game score calculations.</li>
 </ul>
 
 
@@ -78,7 +78,7 @@ css: |-
 </div>
 
 <ul class="mb-1">
-  <li>Implemented Jaccard index and Front-end for the system that according to the input param set (hard skills, for example) and can effectively combine people into optimal team and propose the best one for a project.</li>
+  <li>Implemented Jaccard index and frontend for the system that according to the input param set (hard skills, for example) and can effectively combine people into optimal team and propose the best one for a project.</li>
 </ul>
 
 <h2 class="my-3">OPEN SOURCE PROJECTS</h2>
@@ -98,13 +98,13 @@ css: |-
 <p class="mb-1" style="text-indent: 25px;">A Python library that provides ability to make private and group audio & video calls, live streams and broadcast recordings in Telegram.</p>
 <ul class="mb-1">
   <li>Developed a binding using pybind11 that allows to use C++ library like Python native one.</li>
-  <li>Restored CMake files for compile C++ library with big dependencies like WebRTC, FFmpeg, OpenSSL and Opus.</li>
-  <li>Made Telegram's C++ library independent of graphical interfaces (made headless version of the official library).</li>
-  <li>Implemented and documented high level Python interface by researched code of official clients in an env without doc.</li>
+  <li>Restored CMake files to compile the C++ library with big dependencies like WebRTC, FFmpeg, OpenSSL and Opus.</li>
+  <li>Made Telegram's C++ library independent of graphical interfaces (made a headless version of the official library).</li>
+  <li>Implemented and documented high-level Python interfaces by taking the code of official clients as reference in an environment without documentation.</li>
   <li>Built Python binary wheels for many platforms (maOS M1 & x86, Unix x86 & ARM, Win) using manylinux, CI and QEMU.</li>
-  <li>Wrote realtime video and audio frames converter to raw formats using OpenCV and FFmpeg.</li>
+  <li>Wrote a realtime video and audio frame converter to raw formats using OpenCV and FFmpeg.</li>
   <li>Exchanged symmetric auth keys for end-to-end secured calls using Diffie-Hellman algorithm.</li>
-  <li>Worked on synchronization of audio and video streams.</li>
+  <li>Worked on the synchronization of audio and video streams.</li>
 </ul>
 
 <div class="d-flex align-items-center g-3">
@@ -112,7 +112,7 @@ css: |-
   <span>[Python]</span>
 </div>
 
-<p class="mb-1" style="text-indent: 25px;">A Python library with high level interfaces for a private Yandex.Music API with documentation, examples and tests.</p>
+<p class="mb-1" style="text-indent: 25px;">A Python library with high-level interfaces for the private Yandex.Music API with documentation, examples and tests.</p>
 
 <h2 class="my-3">SKILLS</h2>
 
@@ -120,7 +120,7 @@ css: |-
   <div class="col-2 fw-bold">Languages</div>
   <div class="col-auto">
     <span class="fw-bold">Proficient: </span>
-    <span>Python, JavaScript (TypeScript)</span>
+    <span>Python, JavaScript/TypeScript</span>
     <br>
     <span class="fw-bold">Familiar: </span>
     <span>C++</span>
