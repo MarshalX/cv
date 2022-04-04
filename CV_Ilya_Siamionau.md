@@ -1,12 +1,12 @@
 ---
 pdf_options:
   format: a4
-  margin: 5mm 20mm 0mm 20mm
-  printBackground: true
+  margin: 5mm 20mm 5mm 20mm
+  scale: 0.95
 body_class: markdown-body
 stylesheet:
-  - https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css
-  - https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css
+  - css/bootstrap.min.css
+  - css/github-markdown.min.css
 css: |-
   .page-break { page-break-after: always; }
   .markdown-body { font-size: 11px; }
@@ -16,15 +16,15 @@ css: |-
 <center>
   <p class="text-center fs-1 mb-0">ILYA SIAMIONAU</p>
   <span class="mx-1">
-    <img class="align-middle" src="simple-icons/icons/github.svg" height="16"/> 
+    <img class="align-middle" src="icons/github.svg" height="16"/> 
     <a href="https://github.com/MarshalX">MarshalX</a>
   </span>
   <span class="mx-1">
-    <img class="align-middle" src="simple-icons/icons/maildotru.svg" height="16"/> 
+    <img class="align-middle" src="icons/maildotru.svg" height="16"/> 
     <a href="mailto:ilya@marshal.dev">ilya@marshal.dev</a>
   </span>
   <span class="mx-1">
-    <img class="align-middle" src="simple-icons/icons/linkedin.svg" height="16"/> 
+    <img class="align-middle" src="icons/linkedin.svg" height="16"/> 
     <a href="https://www.linkedin.com/in/marshalx/">MarshalX</a>
   </span>
 </center>

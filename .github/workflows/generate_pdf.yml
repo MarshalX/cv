@@ -7,17 +7,15 @@ on:
 
 jobs:
   generate:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          submodules: true
       - name: Set up Node JS
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '15.12.0'
       - name: Install dependencies
-        run: npm i -g md-to-pdf
+        run: npm i -g md-to-pdf@4.0.0
       - name: Generate
         run: md-to-pdf CV_Ilya_Siamionau.md
       - name: Upload artifact
