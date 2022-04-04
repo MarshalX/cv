@@ -29,11 +29,11 @@ css: |-
   </span>
 </center>
 
-<h2 class="my-3">SUMMARY</h2>
+<h2 class="my-2">SUMMARY</h2>
 
-<p style="text-indent: 25px;">Software engineer with 2.5+ years of strong experience in backend development in Python and JavaScript, practical experience in real-time communication (WebRTC) and frontend development in React + Redux, first-hand expertise in making C++ bindings for Python. Vocational education taken after high education level.</p>
+<p class="mb-1" style="text-indent: 25px;">Software engineer with 2.5+ years of strong experience in backend development in Python and JavaScript, practical experience in real-time communication (WebRTC) and frontend development in React + Redux, first-hand expertise in making C++ bindings for Python. Vocational education taken after high education level.</p>
 
-<h2 class="my-3">EXPERIENCE</h2>
+<h2 class="my-2">EXPERIENCE</h2>
 
 <div class="row d-flex justify-content-between align-items-center">
   <div class="col text-start">
@@ -44,10 +44,12 @@ css: |-
 </div>
 
 <ul class="mb-1">
-  <li>Developed the platform-independent <a href="https://www.bluejeans.com/">BlueJeans</a> SDK in pure WebRTC with the support of single and multiple video streams, list of participants with handling of attribute changes, chat and meeting moderation tools. Implemented JSON RPC.</li>
-  <li>Leaded, designed and implemented integration with <a href="https://www.verizon.com/learning">Verizon Innovative Learning</a>. Worked with NCES IDs of USA schools.</li>
+  <li>Developed the platform-independent <a href="https://www.bluejeans.com/">BlueJeans</a> SDK in pure WebRTC with the support of single and multiple video streams, list of participants with handling of attribute changes, chat and meeting moderation tools. Implemented JSON-
+RPC for communication with VR application.</li>
+  <li>Leaded, designed and implemented integration with <a href="https://www.verizon.com/learning">Verizon Innovative Learning</a> platform.</li>
+<!-- Worked with NCES IDs of USA schools. -->
   <li>Created a custom subscription model for providing access to virtual reality apps.</li>
-  <li>Participated actively in the development of the billing system.</li>
+  <li>Participated actively in the development of the billing system by played time.</li>
   <li>Conducted research about transferring data through sound (e.g. musical notes) to pair new VR headsets to accounts.</li>
 </ul>
 
@@ -62,10 +64,10 @@ css: |-
 
 <ul class="mb-1">
   <li>Developed the backend part of a new project in a full-Firebase stack (Firebase Cloud Function, Firestore, Firebase Storage). The project is an aggregator of the statistics of played games in Sudoku which also gives achievements and makes score histograms of all players and leaderboards.</li>
-  <li>Designed the database architecture for making fast aggregate calculations.</li>
-  <li>Used InversifyJS as an implementation of IoC paradigm. Also used tools for automatic generation Swagger specification from code of data models, controllers and routes with comment and examples of values.</li>
-  <li>Developed client-team oriented tools: Bitbucket to Firebase Storage exporter, small bots in Slack.</li>
-  <li>Conducted research about count of solution of Sudoku with modified game rules. Also designed the game score calculations.</li>
+  <li>Designed the database architecture for making fast aggregate calculations in NoSQL database without built-in aggregated operations.</li>
+  <li>Used InversifyJS as an implementation of IoC paradigm. Also used tools for automatic generation OpenAPI specification from code of data models, controllers and routes with comment and examples of values.</li>
+  <li>Developed client-team oriented tools: Bitbucket to Firebase Storage exporter, small bots in Slack, terminal-based Sudoku viewer and solver.</li>
+  <li>Conducted research about count of solution of Sudoku with modified game rules. Also designed the game score calculations; generated game levels.</li>
 </ul>
 
 
@@ -81,7 +83,7 @@ css: |-
   <li>Implemented Jaccard index and frontend for the system that according to the input param set (hard skills, for example) and can effectively combine people into optimal team and propose the best one for a project.</li>
 </ul>
 
-<h2 class="my-3">OPEN SOURCE PROJECTS</h2>
+<h2 class="my-2">OPEN SOURCE PROJECTS</h2>
 
 <div class="d-flex align-items-center g-3">
   <a class="fs-6 me-1" href="https://github.com/MarshalX/python-webrtc">Python WebRTC</a>
@@ -114,7 +116,7 @@ css: |-
 
 <p class="mb-1" style="text-indent: 25px;">A Python library with high-level interfaces for the private Yandex.Music API with documentation, examples and tests.</p>
 
-<h2 class="my-3">SKILLS</h2>
+<h2 class="my-2">SKILLS</h2>
 
 <div class="row mt-1 pt-1">
   <div class="col-2 fw-bold">Languages</div>
@@ -129,7 +131,7 @@ css: |-
 
 <div class="row">
   <div class="col-2 fw-bold">Frameworks</div>
-  <div class="col-auto">Django, Flask, FastAPI, Express</div>
+  <div class="col-auto">Django, DRF, Flask, FastAPI, Express</div>
 </div>
 
 <div class="row">
