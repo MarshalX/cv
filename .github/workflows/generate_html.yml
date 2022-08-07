@@ -22,6 +22,7 @@ jobs:
         run: |
           mkdir build
           mv CV_Ilya_Siamionau.html build/index.html
+          cp -r icons build/icons
       - name: Push to branch
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
