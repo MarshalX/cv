@@ -88,7 +88,7 @@ RPC for communication with VR application.</li>
   <li>Restored CMake files to compile the C++ library with big dependencies like WebRTC, FFmpeg, OpenSSL and Opus.</li>
   <li>Made Telegram's C++ library independent of graphical interfaces (made a headless version of the official library).</li>
   <li>Implemented and documented high-level Python interfaces by taking the code of official clients as reference in an environment without documentation.</li>
-  <li>Built Python binary wheels for many platforms (maOS M1 & x86, Unix x86 & ARM, Win) using manylinux, CI and QEMU.</li>
+  <li>Built Python binary wheels for many platforms (macOS M1 & x86, Unix x86 & ARM, Win) using manylinux, CI and QEMU.</li>
   <li>Wrote a realtime video and audio frame converter to raw formats using OpenCV and FFmpeg.</li>
   <li>Exchanged symmetric auth keys for end-to-end secured calls using Diffie-Hellman algorithm.</li>
   <li>Worked on the synchronization of audio and video streams.</li>
