@@ -1,18 +1,3 @@
----
-pdf_options:
-  format: a4
-  margin: 5mm 20mm 5mm 20mm
-  scale: 0.95
-body_class: markdown-body
-stylesheet:
-  - css/bootstrap.min.css
-  - css/github-markdown.min.css
-css: |-
-  .page-break { page-break-after: always; }
-  .markdown-body { font-size: 11px; }
-  .markdown-body pre > code { white-space: pre-wrap; }
----
-
 <center>
   <p class="text-center fs-1 mb-0">ILYA SIAMIONAU</p>
   <span class="mx-1">
@@ -31,7 +16,7 @@ css: |-
 
 <h2 class="my-2">SUMMARY</h2>
 
-<p class="mb-1" style="text-indent: 25px;">Software engineer with 2.5+ years of strong experience in backend development in Python and JavaScript, practical experience in real-time communication (WebRTC) and frontend development in React + Redux, first-hand expertise in making C++ bindings for Python. Vocational education taken after high education level.</p>
+<p class="mb-1" style="text-indent: 25px;">Software engineer with 3 years of strong experience in backend development in Python and JavaScript, practical experience in real-time communication (WebRTC) and frontend development in React + Redux, first-hand expertise in making C++ bindings for Python. Vocational education taken after high education level.</p>
 
 <h2 class="my-2">EXPERIENCE</h2>
 
@@ -143,3 +128,11 @@ RPC for communication with VR application.</li>
   <div class="col-2 fw-bold">Other</div>
   <div class="col-auto">WebRTC, Docker, CI/CD</div>
 </div>
+
+<script>
+    const head = document.getElementsByTagName('HEAD')[0];
+    const title = document.createElement('title');
+    title.innerText = 'Ilya Siamionau | CV';
+
+    head.appendChild(title);
+</script>

@@ -1,0 +1,30 @@
+name: Generate HTML from MD and push to branch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Node JS
+        uses: actions/setup-node@v2
+        with:
+          node-version: '15.12.0'
+      - name: Install dependencies
+        run: npm i -g md-to-pdf@4.0.0
+      - name: Generate HTML
+        run: md-to-pdf --as-html --config-file config/html.js CV_Ilya_Siamionau.md
+      - name: Prepare folder
+        run: |
+          mkdir build
+          mv CV_Ilya_Siamionau.html build/index.html
+      - name: Push to branch
+        uses: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          branch: gh-pages
+          folder: build
+          clean: false
