@@ -134,27 +134,32 @@
         .page-break { page-break-after: always; }
         .markdown-body { font-size: 14px; max-width: 900px; }
         .markdown-body pre > code { white-space: pre-wrap; }
+        .indent { text-indent: 25px; }
     </style></head>
 <body class="container my-5 markdown-body">
 <center>
   <p class="text-center fs-1 mb-0">ILYA SIAMIONAU</p>
   <span class="mx-1">
-    <img class="align-middle" src="icons/github.svg" height="16"> 
+    <img class="align-middle" src="icons/github.svg" height="16" alt="GitHub"> 
     <a href="https://github.com/MarshalX">MarshalX</a>
   </span>
   <span class="mx-1">
-    <img class="align-middle" src="icons/maildotru.svg" height="16"> 
+    <img class="align-middle" src="icons/maildotru.svg" height="16" alt="Email"> 
     <a href="mailto:ilya@marshal.dev">ilya@marshal.dev</a>
   </span>
   <span class="mx-1">
-    <img class="align-middle" src="icons/linkedin.svg" height="16"> 
+    <img class="align-middle" src="icons/linkedin.svg" height="16" alt="LinkedIn"> 
     <a href="https://www.linkedin.com/in/marshalx/">MarshalX</a>
+  </span>
+<span class="mx-1">
+    <img class="align-middle" src="icons/googlemaps.svg" height="16" alt="Location"> 
+    Warsaw, Poland
   </span>
 </center>
 
 <h2 class="my-2">SUMMARY</h2>
 
-<p class="mb-1" style="text-indent: 25px;">Software engineer with 3 years of strong experience in backend development in Python and JavaScript, practical experience in real-time communication (WebRTC) and frontend development in React + Redux, first-hand expertise in making C++ bindings for Python. Vocational education taken after high education level.</p>
+<p class="indent mb-1">Software engineer with 3+ years of strong experience in backend development in Python and JavaScript/TypeScript, practical experience in video &amp; audio real-time communication using WebRTC and frontend development in React + Redux, first-hand expertise in making C++ bindings for Python. Vocational education taken after high education level.</p>
 
 <h2 class="my-2">EXPERIENCE</h2>
 
@@ -167,13 +172,10 @@
 </div>
 
 <ul class="mb-1">
-  <li>Developed the platform-independent <a href="https://www.bluejeans.com/">BlueJeans</a> SDK in pure WebRTC with the support of single and multiple video streams, list of participants with handling of attribute changes, chat and meeting moderation tools. Implemented JSON-
-RPC for communication with VR application.</li>
-  <li>Leaded, designed and implemented integration with <a href="https://www.verizon.com/learning">Verizon Innovative Learning</a> platform.</li>
-<!-- Worked with NCES IDs of USA schools. -->
-  <li>Created a custom subscription model for providing access to virtual reality apps.</li>
-  <li>Participated actively in the development of the billing system by played time.</li>
-  <li>Conducted research about transferring data through sound (e.g. musical notes) to pair new VR headsets to accounts.</li>
+  <li>Developed the platform-independent <a href="https://www.bluejeans.com/">BlueJeans</a> SDK in pure WebRTC with the support of all features of Video Conferencing.</li>
+  <li>Leaded, designed and implemented integration with <a href="https://www.verizon.com/learning">Verizon Innovative Learning</a> platform and USA schools.</li>
+  <li>Upgraded the whole backend infrastructure from the legacy version of Django to the latest LTS and integrated real-time communication for Mobile Device Management of All-in-One VR Headsets.</li>
+  <li>Created a custom subscription model for providing paid access to virtual reality experiences.</li>
 </ul>
 
 
@@ -186,11 +188,9 @@ RPC for communication with VR application.</li>
 </div>
 
 <ul class="mb-1">
-  <li>Developed the backend part of a new project in a full-Firebase stack (Firebase Cloud Function, Firestore, Firebase Storage). The project is an aggregator of the statistics of played games in Sudoku which also gives achievements and makes score histograms of all players and leaderboards.</li>
-  <li>Designed the database architecture for making fast aggregate calculations in NoSQL database without built-in aggregated operations.</li>
-  <li>Used InversifyJS as an implementation of IoC paradigm. Also used tools for automatic generation OpenAPI specification from code of data models, controllers and routes with comment and examples of values.</li>
-  <li>Developed client-team oriented tools: Bitbucket to Firebase Storage exporter, small bots in Slack, terminal-based Sudoku viewer and solver.</li>
-  <li>Conducted research about count of solution of Sudoku with modified game rules. Also designed the game score calculations; generated game levels.</li>
+  <li>Designed the database architecture for making fast aggregate calculations in Firestore (NoSQL) database.</li>
+  <li>Make the backend part in a full-Firebase stack using Firebase Cloud Function, Firestore and Firebase Storage.</li>
+  <li>Developed client-team oriented tools: Bitbucket to Firebase Storage exporter, small bots in Slack, terminal-based Sudoku viewer, solver and generator with modified game rules.</li>
 </ul>
 
 
@@ -203,7 +203,7 @@ RPC for communication with VR application.</li>
 </div>
 
 <ul class="mb-1">
-  <li>Implemented Jaccard index and frontend for the system that according to the input param set (hard skills, for example) and can effectively combine people into optimal team and propose the best one for a project.</li>
+  <li>Implemented Jaccard index and frontend for the system that according to the input param set (hard and softy skills, requirements, wishes) and can effectively combine people into optimal team and propose the best one for a project.</li>
 </ul>
 
 <h2 class="my-2">OPEN SOURCE PROJECTS</h2>
@@ -213,23 +213,24 @@ RPC for communication with VR application.</li>
   <span>[C++, Python]</span>
 </div>
 
-<p class="mb-1" style="text-indent: 25px;">A Python extension that provides bindings to WebRTC M92. It follows the W3C specification with some modifications and additions to make it work better with Python applications, with useful APIs like programmatic audio and video.</p>
+<p class="indent mb-1">A Python extension that provides bindings to WebRTC M92. It follows the W3C specification with some modifications and additions to make it work better with Python applications, with useful APIs like programmatic audio and video.</p>
 
 <div class="d-flex align-items-center g-3">
   <a class="fs-6 me-1" href="https://github.com/MarshalX/tgcalls">Telegram Calls</a>
   <span>[C++, Python]</span>
+  <span class="mx-1" style="color: #9900cc;">TOP-3500 of all Python packages</span>
 </div>
 
-<p class="mb-1" style="text-indent: 25px;">A Python library that provides ability to make private and group audio &amp; video calls, live streams and broadcast recordings in Telegram.</p>
+<p class="indent mb-1">A Python library that provides ability to make private and group audio &amp; video calls and broadcast recordings in Telegram.</p>
 <ul class="mb-1">
   <li>Developed a binding using pybind11 that allows to use C++ library like Python native one.</li>
   <li>Restored CMake files to compile the C++ library with big dependencies like WebRTC, FFmpeg, OpenSSL and Opus.</li>
   <li>Made Telegram's C++ library independent of graphical interfaces (made a headless version of the official library).</li>
-  <li>Implemented and documented high-level Python interfaces by taking the code of official clients as reference in an environment without documentation.</li>
-  <li>Built Python binary wheels for many platforms (macOS M1 &amp; x86, Unix x86 &amp; ARM, Win) using manylinux, CI and QEMU.</li>
+  <li>Implemented and documented high-level Python interfaces by diving to the code of official Telegram clients.</li>
+  <li>Built Python binary wheels for all platforms and different CPU architectures using manylinux, CI and QEMU.</li>
   <li>Wrote a realtime video and audio frame converter to raw formats using OpenCV and FFmpeg.</li>
   <li>Exchanged symmetric auth keys for end-to-end secured calls using Diffie-Hellman algorithm.</li>
-  <li>Worked on the synchronization of audio and video streams.</li>
+  <!-- <li>Worked on the synchronization of audio and video streams.</li> -->
 </ul>
 
 <div class="d-flex align-items-center g-3">
@@ -237,7 +238,7 @@ RPC for communication with VR application.</li>
   <span>[Python]</span>
 </div>
 
-<p class="mb-1" style="text-indent: 25px;">A Python library with high-level interfaces for the private Yandex.Music API with documentation, examples and tests.</p>
+<p class="indent mb-1">A Python library with high-level interfaces for the private Yandex.Music API with documentation, examples and tests.</p>
 
 <h2 class="my-2">SKILLS</h2>
 
@@ -254,7 +255,12 @@ RPC for communication with VR application.</li>
 
 <div class="row">
   <div class="col-2 fw-bold">Frameworks</div>
-  <div class="col-auto">Django, DRF, Flask, FastAPI, Express</div>
+  <div class="col-auto">Django, Django Rest Framework, Django Channels, React</div>
+</div>
+
+<div class="row">
+  <div class="col-2 fw-bold">Libraries</div>
+  <div class="col-auto">Flask, FastAPI, Express.js, Redux</div>
 </div>
 
 <div class="row">
@@ -264,7 +270,7 @@ RPC for communication with VR application.</li>
 
 <div class="row">
   <div class="col-2 fw-bold">Other</div>
-  <div class="col-auto">WebRTC, Docker, CI/CD</div>
+  <div class="col-auto">WebRTC, Docker, CI/CD, Electron</div>
 </div>
 
 <script>
