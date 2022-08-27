@@ -1,7 +1,8 @@
 module.exports = {
     pdf_options: {
         format: 'A4',
-        margin: '5mm 20mm 5mm 20mm',
+        // t r b l
+        margin: '10mm 20mm 10mm 20mm',
         scale: 0.95,
     },
     stylesheet: [
@@ -13,5 +14,6 @@ module.exports = {
         .page-break { page-break-after: always; }
         .markdown-body { font-size: 11px; }
         .markdown-body pre > code { white-space: pre-wrap; }
+        .indent { text-indent: 25px; }
     `,
 };

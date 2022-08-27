@@ -8,5 +8,6 @@ module.exports = {
         .page-break { page-break-after: always; }
         .markdown-body { font-size: 14px; max-width: 900px; }
         .markdown-body pre > code { white-space: pre-wrap; }
+        .indent { text-indent: 25px; }
     `,
 };

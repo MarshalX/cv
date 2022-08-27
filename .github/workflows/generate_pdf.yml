@@ -17,9 +17,9 @@ jobs:
       - name: Install dependencies
         run: npm i -g md-to-pdf@4.0.0
       - name: Generate PDF
-        run: md-to-pdf --config-file config/pdf.js CV_Ilya_Siamionau.md
+        run: md-to-pdf --config-file config/pdf.js Ilya_Siamionau_CV.md
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
-          name: "CV_Ilya_Siamionau"
-          path: CV_Ilya_Siamionau.pdf
+          name: "Ilya_Siamionau_CV"
+          path: Ilya_Siamionau_CV.pdf
