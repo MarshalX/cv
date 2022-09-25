@@ -296,11 +296,30 @@
 </div>
 
 <script>
-  const head = document.getElementsByTagName('HEAD')[0];
-  const title = document.createElement('title');
-  title.innerText = 'Ilya Siamionau | CV';
+  const titleContent = 'Ilya Siamionau | CV';
 
-  head.appendChild(title);
+  const titleElement = document.createElement('title');
+  titleElement.innerText = titleContent;
+  document.head.appendChild(titleElement);
+
+  const metaTags = {
+    'og:title': titleContent,
+    'og:description': 'Software engineer with 3+ years of experience in backend development in Python and JavaScript/TypeScript',
+    'og:url': 'https://marshal.dev/',
+    'og:type': 'profile',
+    'profile:first_name': 'Ilya',
+    'profile:last_name': 'Siamionau',
+    'profile:username': 'Marshal',
+    'profile:gender': 'male',
+  };
+
+  for (const [property, content] of Object.entries(metaTags)) {
+    const metaElement = document.createElement('meta');
+    metaElement.property = property; // doesn't work
+    metaElement.setAttribute('property', property);
+    metaElement.content = content;
+    document.head.appendChild(metaElement);
+  }
 </script>
 
 
