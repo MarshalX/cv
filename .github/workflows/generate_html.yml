@@ -17,7 +17,7 @@ jobs:
       - name: Install dependencies
         run: npm i -g md-to-pdf@4.0.0
       - name: Generate HTML
-        run: md-to-pdf --as-html --config-file config/html.js Ilya_Siamionau_CV.md
+        run: md-to-pdf --as-html --config-file config/html.js Ilya_Siamionau_CV.html
       - name: Prepare folder
         run: |
           mkdir build
