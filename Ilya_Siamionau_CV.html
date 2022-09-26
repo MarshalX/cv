@@ -163,6 +163,11 @@
   titleElement.innerText = titleContent;
   document.head.appendChild(titleElement);
 
+  const viewportElement = document.createElement('meta');
+  viewportElement.name = 'viewport';
+  viewportElement.content = 'width=device-width, initial-scale=1';
+  document.head.appendChild(viewportElement);
+
   const metaTags = {
     'og:title': titleContent,
     'og:description': 'Software engineer with 3+ years of experience in backend development in Python and JavaScript/TypeScript',
