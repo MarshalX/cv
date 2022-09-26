@@ -15,5 +15,6 @@ module.exports = {
         .markdown-body { font-size: 11px; }
         .markdown-body pre > code { white-space: pre-wrap; }
         .indent { text-indent: 25px; }
+        .col-skills { min-width: 110px; }
     `,
 };

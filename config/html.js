@@ -9,5 +9,6 @@ module.exports = {
         .markdown-body { font-size: 14px; max-width: 900px; }
         .markdown-body pre > code { white-space: pre-wrap; }
         .indent { text-indent: 25px; }
+        .col-skills { min-width: 110px; }
     `,
 };
