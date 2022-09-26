@@ -135,26 +135,29 @@
         .markdown-body { font-size: 14px; max-width: 900px; }
         .markdown-body pre > code { white-space: pre-wrap; }
         .indent { text-indent: 25px; }
+        .col-skills { min-width: 110px; }
     </style></head>
 <body class="container my-5 markdown-body">
-<div style="text-align: center;">
+<div class="container" style="text-align: center;">
     <p class="text-center fs-1 mb-0">ILYA SIAMIONAU</p>
-    <span class="mx-1">
-        <img alt="GitHub" class="align-middle" height="16" src="icons/github.svg">
-        <a href="https://github.com/MarshalX">MarshalX</a>
-    </span>
-    <span class="mx-1">
-        <img alt="Email" class="align-middle" height="16" src="icons/maildotru.svg">
-        <a href="mailto:ilya@marshal.dev">ilya@marshal.dev</a>
-    </span>
-    <span class="mx-1">
-    <img alt="LinkedIn" class="align-middle" height="16" src="icons/linkedin.svg">
-    <a href="https://www.linkedin.com/in/marshalx/">MarshalX</a>
-  </span>
-    <span class="mx-1">
-    <img alt="Location" class="align-middle" height="16" src="icons/googlemaps.svg">
-    Warsaw, Poland
-  </span>
+    <div class="row justify-content-center">
+        <div class="col-auto">
+            <img alt="GitHub" class="align-middle" height="16" src="icons/github.svg">
+            <a href="https://github.com/MarshalX">MarshalX</a>
+        </div>
+        <div class="col-auto">
+            <img alt="Email" class="align-middle" height="16" src="icons/maildotru.svg">
+            <a href="mailto:ilya@marshal.dev">ilya@marshal.dev</a>
+        </div>
+        <div class="col-auto">
+            <img alt="LinkedIn" class="align-middle" height="16" src="icons/linkedin.svg">
+            <a href="https://www.linkedin.com/in/marshalx/">MarshalX</a>
+        </div>
+        <div class="col-auto">
+            <img alt="Location" class="align-middle" height="16" src="icons/googlemaps.svg">
+            Warsaw, Poland
+        </div>
+    </div>
 </div>
 
 <h2 class="my-2">SUMMARY</h2>
@@ -167,11 +170,11 @@
 <h2 class="my-2">EXPERIENCE</h2>
 
 <div class="row d-flex justify-content-between align-items-center">
-    <div class="col text-start">
+    <div class="col col-auto text-start">
         <a class="fs-6" href="https://abelanavr.com/">Abelana VR</a>
         <span>as a backend developer</span>
     </div>
-    <div class="col text-end">(Mar 2020 – Present)</div>
+    <div class="col col-auto text-end">(Mar 2020 – Present)</div>
 </div>
 
 <ul class="mb-1">
@@ -188,11 +191,11 @@
 </ul>
 
 <div class="row d-flex justify-content-between align-items-center">
-    <div class="col text-start">
+    <div class="col col-auto text-start">
         <a class="fs-6" href="https://www.iridescent.studio/">Iridescent Studio</a>
         <span>as a backend developer</span>
     </div>
-    <div class="col text-end">(Mar 2020 – Present)</div>
+    <div class="col col-auto text-end">(Mar 2020 – Present)</div>
 </div>
 
 <ul class="mb-1">
@@ -206,11 +209,11 @@
 </ul>
 
 <div class="row d-flex justify-content-between align-items-center">
-    <div class="col text-start">
+    <div class="col col-auto text-start">
         <a class="fs-6" href="https://innowise-group.com/">Innowise Group</a>
         <span>as a full-stack developer</span>
     </div>
-    <div class="col text-end">(Aug 2019 – Mar 2020)</div>
+    <div class="col col-auto text-end">(Aug 2019 – Mar 2020)</div>
 </div>
 
 <ul class="mb-1">
@@ -231,10 +234,12 @@
     some modifications and additions to make it work better with Python applications, with useful APIs like programmatic
     audio and video.</p>
 
-<div class="d-flex align-items-center g-3">
-    <a class="fs-6 me-1" href="https://github.com/MarshalX/tgcalls">Telegram Calls</a>
-    <span>[C++, Python]</span>
-    <span class="mx-1" style="color: #9900cc;">TOP-3500 of all Python packages</span>
+<div class="row d-flex align-items-center g-3">
+    <div class="col">
+        <a class="fs-6 me-1" href="https://github.com/MarshalX/tgcalls">Telegram Calls</a>
+        <span>[C++, Python]</span>
+        <span class="mx-1" style="color: #9900cc;">TOP-3500 of all Python packages</span>
+    </div>
 </div>
 
 <p class="indent mb-1">A Python library that provides the ability to make personal and group audio &amp; video calls and
@@ -265,8 +270,8 @@
 <h2 class="my-2">SKILLS</h2>
 
 <div class="row mt-1 pt-1">
-    <div class="col-2 fw-bold">Languages</div>
-    <div class="col-auto">
+    <div class="col-auto col-skills fw-bold">Languages</div>
+    <div class="col">
         <span class="fw-bold">Proficient: </span>
         <span>Python, JavaScript/TypeScript</span>
         <br>
@@ -276,23 +281,23 @@
 </div>
 
 <div class="row">
-    <div class="col-2 fw-bold">Frameworks</div>
-    <div class="col-auto">Django, Django Rest Framework, Django Channels, React</div>
+    <div class="col-auto col-skills fw-bold">Frameworks</div>
+    <div class="col">Django, Django Rest Framework, Django Channels, React</div>
 </div>
 
 <div class="row">
-    <div class="col-2 fw-bold">Libraries</div>
-    <div class="col-auto">Flask, FastAPI, Express.js, Redux</div>
+    <div class="col-auto col-skills fw-bold">Libraries</div>
+    <div class="col">Flask, FastAPI, Express.js, Redux</div>
 </div>
 
 <div class="row">
-    <div class="col-2 fw-bold">Databases</div>
-    <div class="col-auto">PostgreSQL, MongoDB, Firestore</div>
+    <div class="col-auto col-skills fw-bold">Databases</div>
+    <div class="col">PostgreSQL, MongoDB, Firestore</div>
 </div>
 
 <div class="row">
-    <div class="col-2 fw-bold">Other</div>
-    <div class="col-auto">WebRTC, Docker, CI/CD, Electron</div>
+    <div class="col-auto col-skills fw-bold">Other</div>
+    <div class="col">WebRTC, Docker, CI/CD, Electron</div>
 </div>
 
 <script>
