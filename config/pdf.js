@@ -12,7 +12,7 @@ module.exports = {
     body_class: 'markdown-body',
     css: `
         .page-break { page-break-after: always; }
-        .markdown-body { font-size: 11px; }
+        .markdown-body { font-size: 11px; margin: 0 auto; }
         .markdown-body pre > code { white-space: pre-wrap; }
         .indent { text-indent: 25px; }
         .col-skills { min-width: 110px; }
