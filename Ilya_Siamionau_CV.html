@@ -2,19 +2,19 @@
     <p class="text-center fs-1 mb-0">ILYA SIAMIONAU</p>
     <div class="row justify-content-center">
         <div class="col-auto">
-            <img alt="GitHub" class="align-middle" height="16" src="icons/github.svg"/>
+            <img alt="GitHub" class="align-middle" height="16" src="icons/light/github.svg"/>
             <a href="https://github.com/MarshalX">MarshalX</a>
         </div>
         <div class="col-auto">
-            <img alt="Email" class="align-middle" height="16" src="icons/maildotru.svg">
+            <img alt="Email" class="align-middle" height="16" src="icons/light/maildotru.svg">
             <a href="mailto:ilya@marshal.dev">ilya@marshal.dev</a>
         </div>
         <div class="col-auto">
-            <img alt="LinkedIn" class="align-middle" height="16" src="icons/linkedin.svg"/>
+            <img alt="LinkedIn" class="align-middle" height="16" src="icons/light/linkedin.svg"/>
             <a href="https://www.linkedin.com/in/marshalx/">MarshalX</a>
         </div>
         <div class="col-auto">
-            <img alt="Location" class="align-middle" height="16" src="icons/googlemaps.svg"/>
+            <img alt="Location" class="align-middle" height="16" src="icons/light/googlemaps.svg"/>
             Warsaw, Poland
         </div>
     </div>
@@ -217,4 +217,12 @@
         metaElement.content = content;
         document.head.appendChild(metaElement);
     }
+
+    const changeIconsTheme = (isDark) => document.querySelectorAll('img').forEach(icon => {
+        icon.src = icon.src.replace(isDark ? 'dark' : 'light', isDark ? 'light' : 'dark');
+    });
+
+    window.matchMedia && changeIconsTheme(window.matchMedia("(prefers-color-scheme: dark)").matches);
+    window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)')
+        .addEventListener('change', e => changeIconsTheme(e.matches));
 </script>
