@@ -19,7 +19,7 @@ jobs:
       - name: Generate PDF
         run: md-to-pdf --config-file config/pdf.js Ilya_Siamionau_CV.md
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: "Ilya_Siamionau_CV"
           path: Ilya_Siamionau_CV.pdf
