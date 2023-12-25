@@ -1,25 +1,28 @@
-name: Generate PDF from MD and upload artifact
+name: Generate PDF and upload artifact
 
 on:
+  pull_request:
   push:
     branches:
       - main
 
 jobs:
-  generate:
-    runs-on: macos-latest
+  generate_pdf:
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: Set up Node JS
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '16.x'
-      - name: Install dependencies
-        run: npm i -g md-to-pdf@4.0.0
+          node-version: '18.x'
       - name: Generate PDF
-        run: md-to-pdf --config-file config/pdf.js Ilya_Siamionau_CV.md
+        run: |
+          cd src
+          npm install
+          npm run build
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: "Ilya_Siamionau_CV"
-          path: Ilya_Siamionau_CV.pdf
+          path: dist/Ilya_Siamionau_CV.pdf
