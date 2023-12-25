@@ -1,0 +1,15 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "My personal CV",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "node index.js"
+  },
+  "author": "Ilya (Marshal)",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "21.6.1"
+  }
+}

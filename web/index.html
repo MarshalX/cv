@@ -1,3 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Ilya Siamionau | CV">
+    <meta property="og:description"
+          content="Experienced Software Engineer specializing in Python and TypeScript backend development, with expertise in WebRTC, and creating C++ bindings for Python.">
+    <meta property="og:url" content="https://marshal.dev/">
+    <meta property="og:type" content="profile">
+    <meta property="profile:first_name" content="Ilya">
+    <meta property="profile:last_name" content="Siamionau">
+    <meta property="profile:username" content="Marshal">
+    <meta property="profile:gender" content="male">
+
+    <title>Ilya Siamionau | CV</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/github-markdown.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="container my-5 markdown-body markdown-body-website">
 <div class="container" style="text-align: center;">
     <p class="text-center fs-1 mb-0">ILYA SIAMIONAU</p>
     <div class="row justify-content-center">
@@ -187,42 +210,7 @@
     <div class="col">WebRTC, Docker, CI/CD, Electron</div>
 </div>
 
-<script>
-    const titleContent = 'Ilya Siamionau | CV';
-
-    const titleElement = document.createElement('title');
-    titleElement.innerText = titleContent;
-    document.head.appendChild(titleElement);
-
-    const viewportElement = document.createElement('meta');
-    viewportElement.name = 'viewport';
-    viewportElement.content = 'width=device-width, initial-scale=1';
-    document.head.appendChild(viewportElement);
-
-    const metaTags = {
-        'og:title': titleContent,
-        'og:description': 'Experienced Software Engineer specializing in Python and TypeScript backend development, with expertise in WebRTC, and creating C++ bindings for Python.',
-        'og:url': 'https://marshal.dev/',
-        'og:type': 'profile',
-        'profile:first_name': 'Ilya',
-        'profile:last_name': 'Siamionau',
-        'profile:username': 'Marshal',
-        'profile:gender': 'male',
-    };
-
-    for (const [property, content] of Object.entries(metaTags)) {
-        const metaElement = document.createElement('meta');
-        metaElement.property = property; // doesn't work
-        metaElement.setAttribute('property', property);
-        metaElement.content = content;
-        document.head.appendChild(metaElement);
-    }
-
-    const changeIconsTheme = (isDark) => document.querySelectorAll('img').forEach(icon => {
-        icon.src = icon.src.replace(isDark ? 'dark' : 'light', isDark ? 'light' : 'dark');
-    });
-
-    window.matchMedia && changeIconsTheme(window.matchMedia("(prefers-color-scheme: dark)").matches);
-    window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)')
-        .addEventListener('change', e => changeIconsTheme(e.matches));
-</script>
+<script src="js/theme.js"></script>
+<script src="js/pdf.js"></script>
+</body>
+</html>
