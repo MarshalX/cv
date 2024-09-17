@@ -6,7 +6,7 @@
 
     <meta property="og:title" content="Ilya Siamionau | CV">
     <meta property="og:description"
-          content="Experienced Software Engineer specializing in Python and TypeScript backend development, with expertise in WebRTC, and creating C++ bindings for Python.">
+          content="Experienced Software Engineer specializing using Python and TypeScript backend development, with expertise in WebRTC, and creating bindings for Python.">
     <meta property="og:url" content="https://marshal.dev/">
     <meta property="og:type" content="profile">
     <meta property="profile:first_name" content="Ilya">
@@ -45,10 +45,10 @@
 
 <h2 class="my-2">SUMMARY</h2>
 
-<p class="indent mb-1">Experienced Software Engineer specializing in backend development in Python and TypeScript,
-    with practical experience in real-time video and audio communication using WebRTC,
-    and frontend development in React + Redux.
-    Also possesses first-hand expertise in creating C++ bindings for Python.</p>
+<p class="indent mb-1">Experienced Software Engineer specializing in backend development using Python and TypeScript,
+    with practical experience in real-time video and audio communication through WebRTC,
+    and frontend development with React and Redux.
+    Skilled in creating C++ and Rust bindings for Python.</p>
 <!--Vocational education has taken after higher education level.-->
 
 <h2 class="my-2">EXPERIENCE</h2>
@@ -64,12 +64,19 @@
 <ul class="mb-1">
     <li>Enhanced code coverage with tests from 43% to 61%.</li>
     <li>Achieved a notable 12% speed improvement when handling local files.</li>
-    <li>Improved installation process for customers by publishing to package managers
-        and making executable files via CI/CD.
+    <li>Enhanced <a href="https://github.com/cycodehq/cycode-cli">Cycode CLI</a>
+        installation process for customers by distributing through package managers
+        and packaging binary files.
     </li>
-    <li>Accomplished significant UI/UX enhancements by incorporating a progress bar, optimizing console logs,
-        implementing a table format output, and developing simultaneous execution of multiple scans.
+    <li>
+        Created and published a variety of plugins from scratch for IDEs such as
+        <a href="https://plugins.jetbrains.com/plugin/23079-cycode">IntelliJ IDEA</a>,
+        <a href="https://marketplace.visualstudio.com/items?itemName=cycode.cycode-17">Visual Studio</a>,
+        and <a href="https://marketplace.visualstudio.com/items?itemName=cycode.cycode">VS Code</a>.
     </li>
+<!--    <li>Accomplished significant UI/UX enhancements by incorporating a progress bar, optimizing console logs,-->
+<!--        implementing a table format output, and developing simultaneous execution of multiple scans.-->
+<!--    </li>-->
 </ul>
 
 <div class="row d-flex justify-content-between align-items-center">
@@ -84,13 +91,18 @@
     <li>Developed the platform-independent <a href="https://www.bluejeans.com/">BlueJeans</a> SDK in pure WebRTC with
         the support of all Video Conferencing features.
     </li>
-    <li>Controlled, and implemented integration with <a href="https://www.verizon.com/learning">Verizon Innovative
+    <li>Controlled and implemented integration with <a href="https://www.verizon.com/learning">Verizon Innovative
         Learning</a> platform and USA schools.
     </li>
-    <li>Upgraded the whole backend infrastructure from the legacy version of Django to the latest LTS and integrated
-        real-time communication for Mobile Device Management of All-in-One VR Headsets.
+    <li>
+        Architected and executed a complex and multipart project for
+        <a href="https://mdm.abelanavr.com/">Mobile Device Management</a>
+        of All-in-One VR Headsets.
     </li>
-    <li>Created a custom subscription model for providing paid access to virtual reality experiences.</li>
+<!--    <li>Upgraded the whole backend infrastructure from the legacy version of Django to the latest LTS and integrated-->
+<!--        real-time communication for Mobile Device Management of All-in-One VR Headsets.-->
+<!--    </li>-->
+<!--    <li>Created a custom subscription model for providing paid access to virtual reality experiences.</li>-->
 </ul>
 
 <div class="row d-flex justify-content-between align-items-center">
@@ -103,10 +115,10 @@
 
 <ul class="mb-1">
     <li>Designed the database architecture for making fast aggregate calculations in Firestore (NoSQL) database.</li>
-    <li>Make the backend part in a full-Firebase stack using Firebase Cloud Function, Firebase Authentication, and
+    <li>Made the backend part in a full-Firebase stack using Firebase Cloud Function, Firebase Authentication, and
         Firebase Hosting.
     </li>
-    <li>Developed team-oriented tools: Bitbucket to Firebase Storage exporter, small bots in Slack, terminal-based
+    <li>Integrated team-oriented tools: Bitbucket to Firebase Storage exporter, small bots in Slack, terminal-based
         Sudoku viewer and solver, Sudoku levels generator with modified game rules.
     </li>
 </ul>
@@ -120,40 +132,47 @@
 </div>
 
 <ul class="mb-1">
-    <li>Implemented Jaccard index and frontend for the system that, according to the input param set (hard and soft
-        skills, requirements, wishes), can effectively combine people into an optimal team and propose the best one for
-        a project
+    <li>Implemented Jaccard index and frontend for a system that effectively combines individuals into optimal teams
+        based on input parameters such as hard and soft skills, requirements, and preferences,
+        recommending the best team for a project.
     </li>
 </ul>
 
-<h2 class="my-2">OPEN SOURCE PROJECTS</h2>
+<h2 class="my-2">PERSONAL OPEN SOURCE PROJECTS</h2>
+
+<div class="d-flex align-items-center g-3">
+    <a class="fs-6 me-1" href="https://github.com/MarshalX/python-libipld">Python IPLD</a>
+    <span>[Rust]</span>
+</div>
+
+<p class="indent mb-1">Blazingly fast and highly optimized library for decoding and encoding DAG-CBOR and other IPLD data structures.</p>
 
 <div class="d-flex align-items-center g-3">
     <a class="fs-6 me-1" href="https://github.com/MarshalX/atproto">The AT Protocol SDK</a>
     <span>[Python]</span>
+    <span class="mx-1" style="color: #9900cc;">Receiving over 50,000 monthly downloads</span>
 </div>
 
-<p class="indent mb-1">Autogenerated from API specifications, well type hinted, documented,
-    supporting both sync and async operations.</p>
+<p class="indent mb-1">Automatically generated from API specifications, type annotated, documented, supporting both sync and async operations.</p>
 
 <div class="d-flex align-items-center g-3">
     <a class="fs-6 me-1" href="https://github.com/MarshalX/python-webrtc">Python WebRTC</a>
     <span>[C++, Python]</span>
 </div>
 
-<p class="indent mb-1">Extension binding to WebRTC M92. Follows the W3C specification with
-    some modifications and additions to make it work better with Python applications, with useful APIs like programmatic
-    audio and video.</p>
+<p class="indent mb-1">Extension binding for WebRTC M92 that adheres to the W3C specification with some modifications
+    and additions to enhance compatibility with Python applications,
+    featuring useful APIs for programmatic audio and video control.</p>
 
 <div class="row d-flex align-items-center g-3">
     <div class="col">
         <a class="fs-6 me-1" href="https://github.com/MarshalX/tgcalls">Telegram Calls</a>
         <span>[C++, Python]</span>
-        <!--        <span class="mx-1" style="color: #9900cc;">TOP-3500 of all Python packages</span>-->
+        <span class="mx-1" style="color: #9900cc;">TOP-3500 of all Python packages in 2022</span>
     </div>
 </div>
 
-<p class="indent mb-1">Library for personal and group audio/video calls and broadcast recordings in Telegram.</p>
+<p class="indent mb-1">Library for personal and group audio/video calls and broadcasting recordings in Telegram.</p>
 <!--<ul class="mb-1">-->
 <!--    <li>Developed a binding using pybind11 that allows using C++ library as a Python native one.</li>-->
 <!--    <li>Restored CMake files to compile the C++ library with huge dependencies like WebRTC, FFmpeg, OpenSSL, and Opus.-->
@@ -174,8 +193,8 @@
     <span>[Python]</span>
 </div>
 
-<p class="indent mb-1">High-level interfaces for the reverse engineered private Yandex.Music API
-    with documentation, examples, and tests.</p>
+<p class="indent mb-1">High-level interfaces for the reverse-engineered Yandex.Music API,
+    complete with documentation, examples, and tests.</p>
 
 <h2 class="my-2">SKILLS</h2>
 
@@ -186,7 +205,7 @@
         <span>Python, JavaScript/TypeScript</span>
         <br>
         <span class="fw-bold">Familiar: </span>
-        <span>Kotlin, C++</span>
+        <span>Kotlin, C++, Rust, C#</span>
     </div>
 </div>
 
@@ -207,7 +226,7 @@
 
 <div class="row">
     <div class="col-auto col-skills fw-bold">Other</div>
-    <div class="col">WebRTC, Docker, CI/CD, Electron</div>
+    <div class="col">WebRTC, Docker, CI/CD, Electron, IDE SDKs</div>
 </div>
 
 <script src="js/theme.js"></script>
