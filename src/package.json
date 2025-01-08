@@ -10,6 +10,6 @@
   "author": "Ilya (Marshal)",
   "license": "MIT",
   "dependencies": {
-    "puppeteer": "21.6.1"
+    "puppeteer": "23.11.1"
   }
 }
