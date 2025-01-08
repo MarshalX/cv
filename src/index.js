@@ -12,8 +12,11 @@ if (!fs.existsSync(cvPdfDir)) {
     fs.mkdirSync(cvPdfDir);
 }
 
+const noSandboxArgs = ['--no-sandbox', '--disable-setuid-sandbox'];
+const useSandbox = process.env.USE_SANDBOX !== undefined;
+
 (async () => {
-    const browser = await puppeteer.launch({headless: 'new'});
+    const browser = await puppeteer.launch({args: useSandbox ? undefined : noSandboxArgs});
     const page = await browser.newPage();
     await page.emulateMediaType('screen');
 
